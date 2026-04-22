@@ -13,12 +13,6 @@ R, DuckDB, tidyverse (dplyr, ggplot2)
 ## Dataset
 Download:
 https://nextcloud.th-deg.de/s/9GMti9tBYGEBEBp/download
-
-## Run
-```r
-install.packages(c("DBI","duckdb","tidyverse"))
-source("steam_analysis.R")
-
 ## 📊 Results
 
 The analysis shows that a small number of publishers dominate the Steam platform in terms of game releases.
@@ -34,3 +28,9 @@ Notably:
 
 The visualization below summarizes these findings:
 <img width="1323" height="929" alt="cffd515e-121b-4514-9396-c7454d37a5da" src="https://github.com/user-attachments/assets/b8f76fb2-b43f-4fbe-9c7a-b47c373ea887" />
+
+## Run
+```r
+install.packages(c("DBI","duckdb","tidyverse"))
+source("steam_analysis.R")
+
